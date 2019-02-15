@@ -4,6 +4,6 @@ def my_collect(arr)
   while i < arr.size
     empty_arr << yield(arr[i])
     i += 1
-  end 
+  end
   empty_arr
 end
